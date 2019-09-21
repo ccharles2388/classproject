@@ -1,0 +1,52 @@
+body {
+    background-image:url("https://www.onlineoptimism.com/wp-content/uploads/2018/08/New-Orleans-Skyline.jpg");
+    width: 100%;
+  }
+ #photo {
+    padding-bottom: 3%;
+  }
+  button{
+    padding: 0 2%;
+    margin: 0 2%;
+  }
+  .text-center{
+    text-align: center;
+  }
+
+  .tag-row {
+    padding: 3% 0 0 0;
+  }
+
+  h2 {
+    font-size: 165%;
+    color: white;
+    text-align: right; 
+    font-family: 'Monoton', sans-serif; 
+    /* font-family: 'Roboto', sans-serif; */
+  /* }
+  h3 {
+    font-size: 165%;
+    font-weight: bold;
+    color: white;
+    text-align: center; 
+    font-family: 'Monoton', sans-serif; 
+    font-family: 'Roboto', sans-serif; */
+  }
+  .container {
+    background-color: rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+    width: 100%;
+  }
+  .btn {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 125%;
+    font-weight: bold;
+  } 
+  .guide {
+    padding: 3% 0 0 0;
+  }
+  .category-row {
+    padding: 3% 0 ;
+  }
+© 2019 GitHub, Inc.
