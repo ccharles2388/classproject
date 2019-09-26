@@ -1,6 +1,6 @@
 body {
-    background-image:url("https://www.onlineoptimism.com/wp-content/uploads/2018/08/New-Orleans-Skyline.jpg");
-    width: 100%;
+  font-family: 'Exo 2', sans-serif;
+  font: 40px arial, sans-serif;
   }
  #photo {
     padding-bottom: 3%;
@@ -16,27 +16,25 @@ body {
   .tag-row {
     padding: 3% 0 0 0;
   }
-
+  #searchgenerator {
+    
+  }
+  #quoteText {
+    color: grey !important;
+    font-family: 'Times New Roman', Times, serif;
+    -moz-text-align-last: center;
+  }
   h2 {
     font-size: 165%;
     color: white;
-    text-align: right; 
+    -moz-text-align-last: center;
     font-family: 'Monoton', sans-serif; 
-    /* font-family: 'Roboto', sans-serif; */
-  /* }
-  h3 {
-    font-size: 165%;
-    font-weight: bold;
-    color: white;
-    text-align: center; 
-    font-family: 'Monoton', sans-serif; 
-    font-family: 'Roboto', sans-serif; */
   }
-  .container {
+  /* .container {
     background-color: rgba(0, 0, 0, 0.2);
     max-width: 1000px;
     width: 100%;
-  }
+  } */
   .btn {
     margin-top: 2%;
     margin-bottom: 2%;
@@ -49,4 +47,14 @@ body {
   .category-row {
     padding: 3% 0 ;
   }
-© 2019 GitHub, Inc.
+
+  @keyframes slidein {
+    from{
+      transform: translateX(0%);
+    }
+
+    to{
+      transform: translateX(100%);
+    }
+  }
+  
