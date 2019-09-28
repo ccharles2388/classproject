@@ -1,4 +1,5 @@
 // Your web app's Firebase configuration
+/*
 var firebaseConfig = {
   apiKey: "AIzaSyBC9EdzFuCmH14viAgGa7joQBxcr2H_a1c",
   authDomain: "the-wild-music-experience.firebaseapp.com",
@@ -10,21 +11,9 @@ var firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-
+*/
 
 // Matt's code:
-/*
-<form>
-        <form>
-            Search for songs with lyrics containing:<br>
-            <input type="text" id="search" name="search"><br><br>
-            Number of results:<br>
-            <input type="number" id="number-of-results" name="number-of-results"><br><br>
-            <input type="submit" id="submit" value="Submit">
-        </form>
-
-        <div id="test"></div>
-*/
 $("#submit").on("click", function () {
   event.preventDefault();
   if (!$("#search").val() || !$("#number-of-results").val()) {
