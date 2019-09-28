@@ -10,10 +10,13 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Firebase References -->
     <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
@@ -40,25 +43,30 @@
         <p class="text-center">Search for Lyrics from Artists</p>
         <div class="row text-center tag-row" id="tags"></div>
         <div class="row text-center category-row">
-            <input type="" name="" id="category"><button class="btn btn-secondary" id="addTag">Search for Giphs</button>
+            <form>
+                <input type="text" name="search" id="search">
+                <input type="number" id="number-of-results" name="number-of-results"><br><br>
+                <button class="btn btn-secondary" id="submit">Search for Giphs</button>
+            </form>
         </div>
+
+        <div id="test"></div>
     </div>
 
     <div class="footer-copyright">
-            <div class="container">
+        <div class="container">
             Copyright @ Team Live Coders 2019<a class="brown-text text-lighten-3"></a>
-            </div>
-          </div>
-        </footer>
+        </div>
+    </div>
+    </footer>
 
 
     <!--JavaScript at end of body for optimized loading-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type = "text/javascript"src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
-    <script type="text/javascript" src="giph.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-  <script src="app.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>
