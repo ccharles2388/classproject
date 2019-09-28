@@ -1,0 +1,60 @@
+body {
+  font-family: 'Exo 2', sans-serif;
+  font: 40px arial, sans-serif;
+  }
+ #photo {
+    padding-bottom: 3%;
+  }
+  button{
+    padding: 0 2%;
+    margin: 0 2%;
+  }
+  .text-center{
+    text-align: center;
+  }
+
+  .tag-row {
+    padding: 3% 0 0 0;
+  }
+  #searchgenerator {
+    color: white;
+  }
+  #quoteText {
+    color: grey !important;
+    font-family: 'Times New Roman', Times, serif;
+    -moz-text-align-last: center;
+  }
+  h2 {
+    font-size: 165%;
+    color: white;
+    -moz-text-align-last: center;
+    font-family: 'Monoton', sans-serif; 
+  }
+  /* .container {
+    background-color: rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+    width: 100%;
+  } */
+  .btn {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 125%;
+    font-weight: bold;
+  } 
+  .guide {
+    padding: 3% 0 0 0;
+  }
+  .category-row {
+    padding: 3% 0 ;
+  }
+
+  @keyframes slidein {
+    from{
+      transform: translateX(0%);
+    }
+
+    to{
+      transform: translateX(100%);
+    }
+  }
+  

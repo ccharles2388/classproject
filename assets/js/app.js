@@ -1,5 +1,5 @@
 // Your web app's Firebase configuration
-/*
+
 var firebaseConfig = {
   apiKey: "AIzaSyBC9EdzFuCmH14viAgGa7joQBxcr2H_a1c",
   authDomain: "the-wild-music-experience.firebaseapp.com",
@@ -11,7 +11,7 @@ var firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-*/
+
 
 // Matt's code:
 $("#submit").on("click", function () {
