@@ -85,3 +85,23 @@ $("#submit").on("click", function () {
       }
     });
 });
+
+//Initializing with jQuery
+$(document).ready(function(){
+    $('.parallax').parallax();
+});
+
+//clear the lyrics
+$("#clear").on("click", function () {
+    console.clear();
+    $("#test").empty();
+   });
+
+//MusixMatch API 
+$( document ).ready(function(){
+    var musicappID ="7f5e58e885081814debff9d5cd8ee469";
+})
+
+$("#submit").click(function(){
+    var 
+})
