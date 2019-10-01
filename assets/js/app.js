@@ -30,9 +30,14 @@ Extra feature ideas:
 */
 
 
-// Code
+$(document).ready(function () {
+  // Initialize Parllax when page loads
+  $('.parallax').parallax();
+});
+
 
 $("#submit").on("click", function () {
+  // Submit button
   event.preventDefault();
   if (!$("#search").val() || !$("#number-of-results").val()) {
     // If one (or both) of the text boxes are blank
@@ -82,7 +87,7 @@ $("#submit").on("click", function () {
           trackName = data1.message.body.track_list[i].track.track_name;
           trackArtist = data1.message.body.track_list[i].track.artist_name;
         }
-        catch(err) {
+        catch (err) {
           $("#test").append("Search failed. Try entering something else.")
           return;
         }
