@@ -14,7 +14,7 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Firebase References -->
@@ -28,6 +28,8 @@
 <body>
 
     <div class="parallax-container">
+        <div class="parallax"><img src="images/livedjg.jpg"></div>
+=======
         <div class="parallax"><img src="livedj.jpg"></div>
     </div>
     <div class="container">
@@ -39,6 +41,8 @@
                         <h2>
                             <span id="quoteText">Click the 'Get Lyrics!'</span>
                         </h2>
+                        <button id="getLyrics" class="btn btn-outline-secondary">Lyrics, Please!</button>
+=======
                     </div>
                 </div>
                 <p class="text-center">Search for Lyrics from Artists</p>
@@ -52,18 +56,8 @@
 
                 </div>
             </div>
+            <div id="test"></div>
         </div>
-        <p class="text-center">Search for Lyrics from Artists</p>
-        <div class="row text-center tag-row" id="tags"></div>
-        <div class="row text-center category-row">
-            <form>
-                <input type="text" name="search" id="search">
-                <input type="number" id="number-of-results" name="number-of-results"><br><br>
-                <button class="btn btn-secondary" id="submit">Search for Giphs</button>
-            </form>
-        </div>
-
-        <div id="test"></div>
     </div>
     <div class="footer-copyright">
         <div class="container">
@@ -71,17 +65,19 @@
         </div>
     </div>
     </footer>
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/guitar.jpg"></div>
 
     <div class="parallax-container">
         <div class="parallax"><img src="guitar.jpg"></div>
     </div>
 
-    <!--JavaScript at end of body for optimized loading-->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!--JavaScript at end of body for optimized loading-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-    <script src="assets/js/app.js"></script>
+        <script src="app.js"></script>
 </body>
 
 </html>
